@@ -6,8 +6,8 @@ all: data.dat grafica.png
 %.dat: a.out
 	./a.out
 
-a.out: JuanVelasquez_Ejercicio28.cpp
-	g++ JuanVelasquez_Ejercicio28.cpp
+a.out: JuanVelasquez_Ejercicio29.cpp
+	g++ JuanVelasquez_Ejercicio29.cpp
 
 clean:
 	rm -rf *.x *.dat *.png
